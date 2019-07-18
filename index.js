@@ -2,7 +2,7 @@ let wheels = [];
 let wavePts = [];
 let buttons = [];
 let harmonics = [];
-const harmonicCount = 3;
+const harmonicCount = 15;
 const scrollSpeed = 2;
 const spinSpeed = 0.06;
 let wheelSize;
