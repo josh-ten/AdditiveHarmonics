@@ -36,7 +36,8 @@ class Wheel {
     let x = cos(this.angle);
     let y = sin(this.angle);
     let end = createVector(x, y);
-    end.mult(this.radius);
+    if (this.radius < Infinity)
+      end.mult(this.radius);
     end.add(this.origin);
     return end;
   }
